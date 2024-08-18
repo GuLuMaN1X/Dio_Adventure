@@ -1,0 +1,15 @@
+body{
+    background: rgb(87,0,18);
+    background: linear-gradient(90deg, rgba(87,0,18,1) 0%, rgba(255,0,0,1) 100%);
+}
+.dildo_blue{
+    margin-left: 500px;
+}
+#click{
+    width: 300px;
+    margin-left: 630px;
+    height: 950px;
+    margin-top: -650px;
+    background: none;
+    border-width: 0px;
+}

@@ -1,0 +1,57 @@
+body{
+    background: rgb(255,0,237);
+    background: linear-gradient(90deg, rgba(255,0,237,1) 15%, rgba(0,0,0,1) 95%);
+}
+.game{
+    width: 600px;
+    height: 200px;
+    border-bottom:1px solid  black;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+#dino{
+    width: 90px;
+    height: 140px;
+    background-image: url(/www/images/ио\ \(1\).png);
+    background-size:90px 140px ;
+    position: relative;
+    top: 59px;
+}
+#cactus{
+    width: 130px;
+    height: 130px;
+    background-image: url(/www/images/джотар\ \(1\).png);
+    background-size: 130px 130px ;
+    position: relative;
+    top:-50px;
+    left: 580px;
+    animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov{
+    0%{
+        left: 570px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+.jump{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{
+        top:1px
+    }
+    30%{
+        top:-150px;
+    }
+    50%{
+        top:-80px;
+    }
+    80%{
+        top:-150px;
+    }
+    100%{
+        left: 1px;
+    }
+}
